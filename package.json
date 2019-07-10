@@ -1,0 +1,40 @@
+{
+  "name": "@tttedu304/estreck-console",
+  "version": "1.0.1",
+  "description": "A CLI build with JavaScript",
+  "main": "src/index.js",
+  "bin": {
+    "@tttedu304/create-project": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-project"
+  ],
+  "repository": {
+    "url": "https://github.com/tttedu304/estreck-console"
+  },
+  "author": "tttedu304",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^4.1.0",
+    "chalk": "^2.4.2",
+    "esm": "^3.2.18",
+    "execa": "^2.0.3",
+    "inquirer": "^6.4.1",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}
